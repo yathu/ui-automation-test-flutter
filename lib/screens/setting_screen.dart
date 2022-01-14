@@ -5,10 +5,15 @@ class SettingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: ElevatedButton(
-        child: const Text("Click me"),
-        onPressed: () {},
+    return Directionality(
+      textDirection: TextDirection.ltr,
+      child: Center(
+        child: ElevatedButton(
+          child:  const Text("Click me",),
+          onPressed: () {
+            print("button pressed");
+          },
+        ),
       ),
     );
   }
