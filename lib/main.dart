@@ -28,9 +28,8 @@ class MyStatefulWidget extends StatefulWidget {
 class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   int _selectedIndex = 0;
 
-
    final List<Widget> _widgetOptions = <Widget>[
-    const HomeScreen(),
+    const HomeScreen(title: "Hone Screen",),
     const SettingScreen(),
   ];
 
@@ -62,9 +61,5 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
         onTap: _onItemTapped,
       ),
     );
-  }
-
-  void buttonPressed() {
-    print("Button Pressed");
   }
 }
