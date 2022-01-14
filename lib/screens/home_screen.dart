@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
         TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
 
     return Center(
-      child: Text(title,style: optionStyle,),
+      child: Text(title,style: optionStyle,textDirection: TextDirection.ltr,),
     );
   }
 }

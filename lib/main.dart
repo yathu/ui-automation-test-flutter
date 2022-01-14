@@ -29,7 +29,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   int _selectedIndex = 0;
 
    final List<Widget> _widgetOptions = <Widget>[
-    const HomeScreen(title: "Hone Screen",),
+    const HomeScreen(title: "Home Screen",),
     const SettingScreen(),
   ];
 
