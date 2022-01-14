@@ -1,16 +1,12 @@
-# ui_automation_testing_flutter
+# Testing instructions
 
-A new Flutter project.
+Open the test folder in Terminal and run below command one by one.
+1. `flutter test home_test.dart`
 
-## Getting Started
+2. `flutter test setting_test.dart`
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+**Example**
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](https://raw.githubusercontent.com/yathu/ui-automation-test-flutter/main/Screenshot%202022-01-15%20at%203.12.30%20AM.png)
